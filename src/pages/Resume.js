@@ -1,52 +1,39 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
-import Education from '../components/Resume/Education';
-import Experience from '../components/Resume/Experience';
-import Skills from '../components/Resume/Skills';
-import Courses from '../components/Resume/Courses';
-import References from '../components/Resume/References';
+// import Education from '../components/Resume/Education';
+// import Experience from '../components/Resume/Experience';
+// import Skills from '../components/Resume/Skills';
+// import Courses from '../components/Resume/Courses';
+// import References from '../components/Resume/References';
 
-import courses from '../data/resume/courses';
-import degrees from '../data/resume/degrees';
-import positions from '../data/resume/positions';
-import { skills, categories } from '../data/resume/skills';
+// import courses from '../data/resume/courses';
+// import degrees from '../data/resume/degrees';
+// import positions from '../data/resume/positions';
+// import { skills, categories } from '../data/resume/skills';
 
-const sections = [
-  'Education',
-  'Experience',
-  'Skills',
-  'Courses',
-  'References',
-];
+// const sections = [
+//   'Education',
+//   'Experience',
+//   'Skills',
+//   // 'Courses',
+//   // 'References',
+// ];
+
+const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const Resume = () => (
   <Main
     title="Resume"
-    description="Michael D'Angelo's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet Labs, and Facebook."
+    description="Kaijun Zhu's Resume. UIUC, Walter P Moore, Saiful Bouquet."
   >
-    <article className="post" id="resume">
-      <header>
-        <div className="title">
-          <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
-          <div className="link-container">
-            {sections.map((sec) => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>))}
-          </div>
-
-        </div>
-      </header>
-      <Education data={degrees} />
-      <Experience data={positions} />
-      <Skills skills={skills} categories={categories} />
-      <Courses data={courses} />
-      <References />
-
-    </article>
+    <div style={{ margin: 'auto', display: 'flex', justifyContent: 'center' }}>
+      <object className="resumePDF" width="100%" style={{ maxWidth: '850px' }} type="application/pdf" data={`${PUBLIC_URL}/resume/Kaijun Zhu-Resume.pdf?#zoom=fit&scrollbar=0&toolbar=0&navpanes=0`}>
+        <p>Something went wrong, the resume cannot be loaded. Please come back later.</p>
+      </object>
+    </div>
   </Main>
 );
 

@@ -124,11 +124,22 @@
 	// display: none;
 }
 
+.resumePDF {
+	height: 100%;
+	min-height: 430px;
+}
+
 @include breakpoint(small) {
 	.course-dot {
 		display: none;
 	}
 	.course-container a{
 		display: block;
+	}
+}
+
+@media (min-width: 480px) {
+	.resumePDF {
+		height: 720px;
 	}
 }

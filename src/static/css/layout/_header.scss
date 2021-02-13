@@ -224,6 +224,11 @@
 	border-left: 0;
 }
 
+.header-icons{
+	position: absolute;
+	left: 150px;
+}
+
 .hamburger-container  {
 	display: none;
 }
@@ -231,5 +236,12 @@
 @include breakpoint(medium) {
 	.hamburger-container  {
 		display: initial;
+	}
+}
+
+@media (min-width: 980px) {
+	.header-icons{
+		left: auto;
+		right: 30px;
 	}
 }

@@ -1,15 +1,24 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
+    school: 'University of Illinois at Urbana-Champaign',
+    degree: 'M.S. - Civil Engineering',
+    link: 'https://illinois.edu/',
     year: 2016,
+    gpa: 'GPA: 3.75/4.00',
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Southwest Jiaotong University',
+    degree: 'B.S. - Civil Engineering',
+    link: 'https://en.swjtu.edu.cn/',
+    year: 2014,
+    gpa: 'GPA: 3.78/4.00',
+  },
+  {
+    school: 'Cornell University',
+    degree: 'Non-Degree Exchange Student',
+    link: 'https://www.cornell.edu/',
+    year: 2013,
+    gpa: 'GPA: 3.98/4.00',
   },
 ];
 

@@ -18,7 +18,7 @@ const Hamburger = () => {
             </li>
           ) : (
             <li className="menu open-menu">
-              <div onClick={() => setOpen(!open)} className="menu-hover">&#9776;</div>
+              <div onClick={() => setOpen(!open)} className="menu-hover">MENU</div>
             </li>
           )}
         </ul>

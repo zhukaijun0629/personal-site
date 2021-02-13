@@ -12,32 +12,27 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael.l.dangelo@gmail.com">michael.l.dangelo@gmail.com</a></p>
+        <h2>Kaijun Zhu</h2>
+        <p><a href="mailto:kaijun.zhu0629@gmail.com">kaijun.zhu0629@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I like building things.
-        I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
-        the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>.
+      <p>Hi, I&apos;m Kaijun.
+        I am a software developer, a structural engineer, and a railroad researcher. <br />
+        I received my M.S degree from University of Illinois at Urbana-Champaign, where I was a <a href="https://railtec.illinois.edu/member/kaijun-zhu/" target="_blank" rel="noopener noreferrer">Research Assistant </a> and was advised by <a href="https://railtec.illinois.edu/member/j-riley-edwards/" target="_blank" rel="noopener noreferrer">Dr. Riley Edward</a> and <a href="https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/qian_yu.php" target="_blank" rel="noopener noreferrer">Prof. Yu Qian</a>. After graduation, I became a structural / software engineer at <a href="https://www.saifulbouquet.com/" target="_blank" rel="noopener noreferrer">Saiful Bouquet</a> and <a href="https://www.walterpmoore.com/" target="_blank" rel="noopener noreferrer">Walter P Moore</a>.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {window.location.pathname.includes('/about') ? <Link to="/resume" className="button">View Resume</Link> : <Link to="/about" className="button">More about Me</Link>}
         </li>
       </ul>
     </section>
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Kaijun Zhu <Link to="/">mldangelo.com</Link>.</p>
     </section>
   </section>
 );

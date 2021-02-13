@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Hamburger from './Hamburger';
 import routes from '../../data/routes';
+import ContactIcons from '../Contact/ContactIcons';
 
 // Websites Navbar, displays routes defined in 'src/data/routes'
 const Navigation = () => (
@@ -21,6 +22,7 @@ const Navigation = () => (
         ))}
       </ul>
     </nav>
+    <div className="header-icons"><ContactIcons /></div>
     <Hamburger />
   </header>
 );
