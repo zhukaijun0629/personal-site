@@ -29,7 +29,6 @@ const Resume = () => (
     title="Resume"
     description="Kaijun Zhu's Resume. UIUC, Walter P Moore, Saiful Bouquet."
   >
-    <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
     <div style={{ margin: 'auto', display: 'flex', justifyContent: 'center' }}>
       <object className="resumePDF" width="100%" style={{ maxWidth: '850px' }} type="application/pdf" data={`${PUBLIC_URL}/resume/Kaijun Zhu-Resume.pdf?#zoom=fit&scrollbar=0&toolbar=0&navpanes=0`}>
         <p>Something went wrong, the resume cannot be loaded. Please come back later.</p>

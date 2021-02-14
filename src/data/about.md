@@ -21,7 +21,7 @@ As a former railroad reseracher at UIUC, I performed researches to eliminate cra
 
 - **Zhu, K.**, Edwards, J.R., Qian, Y. and Andrawes, B.O. (2016) Finite element analysis of the effects of bolt condition on bolted rail joint stresses. *Transportation Research Record*, 2545(1), pp.36-45. [**Full-text**](https://railtec.illinois.edu/wp/wp-content/uploads/pdf-archive/Zhu-et-al-2016-TRB-16-4109-TRR-final.pdf)
 
-**Conference Proceedings**
+***Conference Proceedings***
 <br />
 - Qian, Y., **Zhu, K.**, de Oliveira Lima, A., Dersch, M.S. and Edwards, J.R. (2018) Comparison of Under Ballast Mat Performance With Different Support Conditions Through Laboratory Experiment and Numerical Simulation. In *ASME/IEEE Joint Rail Conference* (Vol. 50978, p. V001T01A008). American Society of Mechanical Engineers.
 
