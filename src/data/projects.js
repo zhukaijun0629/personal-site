@@ -1,47 +1,48 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'KaiPlace',
+    subtitle: 'Photo Sharing Social Network',
+    linkDemo: 'https://kaiplace.web.app',
+    linkGithub: 'https://github.com/zhukaijun0629/Milestone_Project-1_KaiPlace-Frontend',
+    image: '/images/projects/kaiplace.gif',
+    date: '2021-02-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Developed a dynamic and interactive Photo Sharing Social Networking service during pandemic. '
+      + 'We wish to light up some hopes under the lock-down by encouraging users to share places they plan to visit in the future. ',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Kaibrary',
+    subtitle: 'Online Library',
+    linkDemo: 'https://kaibrary.herokuapp.com/',
+    linkGithub: 'https://github.com/zhukaijun0629/Milestone_Project-2_Kaibrary',
+    image: '/images/projects/kaibrary.png',
+    date: '2020-12-20',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Build a PC-only online library application which allows the user to organize and search for books and authors. '
+      + 'JavaScript and HTML/CSS were used to build the front end, while NodeJS, Express, MongoDB, and FilePond API were used to build the back end of the web app.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Speed Typing',
+    subtitle: 'A speed typing game',
+    linkDemo: 'https://zhukaijun0629.github.io/Small_Project-2_Speed-Typing/',
+    linkGithub: 'https://github.com/zhukaijun0629/Small_Project-2_Speed-Typing',
+    image: '/images/projects/speed-type.gif',
+    date: '2020-11-20',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Launched this addicitve mini web game "Speed-Typing" to help practice typing skills by monitoring speed and accuracy. '
+      + 'JavaScript, HTML/CSS, and Random Quotes API were used to create the game. Just try it out, you will love it!',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Tic Tac Toe',
+    subtitle: 'A mini web game Tic-Tac-Toe',
+    linkDemo: 'https://zhukaijun0629.github.io/Small_Project-3_JS-TIC-TAC-TOE/',
+    linkGithub: 'https://github.com/zhukaijun0629/Small_Project-3_JS-TIC-TAC-TOE',
+    image: '/images/projects/tic-tac-toe.gif',
+    date: '2020-11-18',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Revived this classic Tic-Tac-Toe game on the web using vanilla JavaScript, HTML and CSS. '
+      + 'Though it is not fancy, but it might help kill 5 seconds of the boring time. ',
   },
 ];
 
