@@ -33,7 +33,7 @@ const Cell = ({ data }) => (
           )}
         </ul>
       </nav>
-      <a href={data.link} target="_blank" rel="noopener noreferrer" className="image">
+      <a href={data.linkDemo ? data.linkDemo : data.link} target="_blank" rel="noopener noreferrer" className="image">
         <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
       </a>
       <div className="description">
