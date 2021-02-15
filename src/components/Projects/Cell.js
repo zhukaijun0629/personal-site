@@ -11,6 +11,16 @@ const Cell = ({ data }) => (
       </header>
       <nav className="links">
         <ul>
+          { data.linkFulltext && (
+            <li key="fulltext">
+              <a href={`${process.env.PUBLIC_URL}${data.linkFulltext}`} target="_blank" rel="noopener noreferrer">Full-text</a>
+            </li>
+          )}
+          { data.linkDOI && (
+            <li key="DOI">
+              <a href={data.linkDOI} target="_blank" rel="noopener noreferrer">DOI.org</a>
+            </li>
+          )}
           { data.linkDemo && (
             <li key="demo">
               <a href={data.linkDemo} target="_blank" rel="noopener noreferrer">Try it out</a>
@@ -37,6 +47,8 @@ Cell.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     link: PropTypes.string,
+    linkFulltext: PropTypes.string,
+    linkDOI: PropTypes.string,
     linkDemo: PropTypes.string,
     linkGithub: PropTypes.string,
     image: PropTypes.string.isRequired,
