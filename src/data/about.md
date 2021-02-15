@@ -1,7 +1,7 @@
 
 # Intro
 
-I am a software developer, a structural engineer, and a former railroad researcher. I received my M.S degree from University of Illinois at Urbana-Champaign (UIUC), where I was a [Graduate Research Assistant](https://railtec.illinois.edu/member/kaijun-zhu/)and was advised by [Dr. Riley Edward](https://railtec.illinois.edu/member/j-riley-edwards/) and [Prof. Yu Qian](https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/qian_yu.php). After graduation, I became a structural / software engineer at [Saiful Bouquet](https://www.saifulbouquet.com/) and [Walter P Moore](https://www.walterpmoore.com/).
+I am a software developer, a structural engineer, and a former railroad researcher. I received my M.S degree from University of Illinois at Urbana-Champaign (UIUC), where I was a [Research Assistant](https://railtec.illinois.edu/member/kaijun-zhu/) and was advised by [Dr. Riley Edward](https://railtec.illinois.edu/member/j-riley-edwards/) and [Prof. Yu Qian](https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/qian_yu.php). After graduation, I became a structural / software engineer at [Saiful Bouquet](https://www.saifulbouquet.com/) and [Walter P Moore](https://www.walterpmoore.com/).
 <br />
 <br />
 As a 2-year-experienced software developer, I love building applications that are intuitive and fun to play with. I also enjoy developing software to improve efficiency and productivity, and to resolve practical problems. 
