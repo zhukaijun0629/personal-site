@@ -1,6 +1,18 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Relax Lotus (Ongoing)',
+    subtitle: 'Light-Music Streaming Service',
+    linkDemo: 'https://relaxlotus.com',
+    linkGithub: 'https://github.com/zhukaijun0629/relax-lotus',
+    image: '/images/projects/relax-lotus.gif',
+    date: '2021-03-01',
+    desc:
+      'Developing a Light-Music Streaming service hoping to help the audiences relax and find inner peace in the anxious society. '
+      + 'The prototype model of the project has been rolled out, which allows the users to overlay various natrual sound tracks onto the main music track. '
+      + 'More functions and music options are under development.',
+  },
+  {
     title: 'KaiPlace',
     subtitle: 'Photo Sharing Social Network',
     linkDemo: 'https://kaiplace.web.app',
@@ -43,6 +55,17 @@ const data = [
     desc:
       'Revived this classic Tic-Tac-Toe game on the web using vanilla JavaScript, HTML and CSS. '
       + 'Though it is not fancy, but it might help kill 5 seconds of the boring time. ',
+  },
+  {
+    title: 'Steel Connection Design Automation',
+    subtitle: 'A comprehensive workflow to automate steel connection design',
+    linkDemo: '',
+    linkGithub: '',
+    image: '/images/projects/connection-design.png',
+    date: '2020-07-01',
+    desc:
+      'Developed a comprehensive digital workflow for steel connection design, which consists of 4 phases:'
+      + 'A) Data Extraction, B) Analysis and Bucketing, C) Design Automation, and D) Result Visualization, reducing connection design project timeline by 40% ',
   },
 ];
 
