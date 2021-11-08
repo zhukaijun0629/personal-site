@@ -13,26 +13,41 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Kaijun Zhu</h2>
-        <p><a href="mailto:kaijun.zhu0629@gmail.com">kaijun.zhu0629@gmail.com</a></p>
+        <p>
+          <a href="mailto:kaijun.zhu0629@gmail.com">kaijun.zhu0629@gmail.com</a>
+        </p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Kaijun.
-        I am a software developer, a structural engineer, and a railroad researcher. <br />
-        I received my M.S degree from University of Illinois at Urbana-Champaign, where I was a <a href="https://railtec.illinois.edu/member/kaijun-zhu/" target="_blank" rel="noopener noreferrer">Research Assistant </a> and was advised by <a href="https://railtec.illinois.edu/member/j-riley-edwards/" target="_blank" rel="noopener noreferrer">Dr. Riley Edward</a> and <a href="https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/qian_yu.php" target="_blank" rel="noopener noreferrer">Prof. Yu Qian</a>. After graduation, I became a structural / software engineer at <a href="https://www.saifulbouquet.com/" target="_blank" rel="noopener noreferrer">Saiful Bouquet</a> and <a href="https://www.walterpmoore.com/" target="_blank" rel="noopener noreferrer">Walter P Moore</a>.
+      <p>
+        Hi, I&apos;m Kaijun. I am a software developer, currently working at
+        Amazon. <br />I like running, hiking, and most of the ourdoor
+        activities. I also enjoy travelling around the world and taking photos.{' '}
+        <br />I recently get into bouldering, where it takes a good combo of
+        mind and strength to tackle each project.
       </p>
       <ul className="actions">
         <li>
-          {window.location.pathname.includes('/about') ? <Link to="/resume" className="button">View Resume</Link> : <Link to="/about" className="button">More about Me</Link>}
+          {window.location.pathname.includes('/about') ? (
+            <Link to="/resume" className="button">
+              View Resume
+            </Link>
+          ) : (
+            <Link to="/about" className="button">
+              More about Me
+            </Link>
+          )}
         </li>
       </ul>
     </section>
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Kaijun Zhu <Link to="/">kaijunz.com</Link>.</p>
+      <p className="copyright">
+        &copy; Kaijun Zhu <Link to="/">kaijunz.com</Link>.
+      </p>
     </section>
   </section>
 );
