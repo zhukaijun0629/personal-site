@@ -7,7 +7,7 @@ I am a software developer, currently working for Amazon on design and developmen
 I received my M.S degree from University of Illinois at Urbana-Champaign (UIUC), where I was a [Academic Researcher](https://railtec.illinois.edu/member/kaijun-zhu/) and was advised by [Dr. Riley Edward](https://railtec.illinois.edu/member/j-riley-edwards/) and [Prof. Yu Qian](https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/qian_yu.php). After graduation, I became a structural / software engineer at [Saiful Bouquet](https://www.saifulbouquet.com/) and [Walter P Moore](https://www.walterpmoore.com/) prior to joining [Amazon](https://www.amazon.com/).
 <br />
 <br />
-As a 3-year-experienced software developer, I love building innovative and intuitive applications that bring essential values to the customers and are fun to play with. I also enjoy developing software to improve efficiency and productivity, and to resolve practical problems. 
+As a software developer, I love building innovative and intuitive applications that bring essential values to the customers and are fun to play with. I also enjoy developing software to improve efficiency and productivity, and to resolve practical problems. 
 <br />
 <br />
 As a former structural engineer, I have designed Hospitals, Airports, Colleges, Parking Garages, Pedestrian Bridges that made of steel and/or reinforced concrete. It is a special feeling to be in the field and witness my design come to life.
