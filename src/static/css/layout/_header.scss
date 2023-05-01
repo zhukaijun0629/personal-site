@@ -12,6 +12,7 @@
 
 	#header {
 		@include vendor('display', 'flex');
+		@include vendor('align-items', 'center');
 		@include vendor('justify-content', 'space-between');
 		background-color: _palette(bg);
 		border-bottom: solid 1px _palette(border);

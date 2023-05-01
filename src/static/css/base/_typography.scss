@@ -78,7 +78,6 @@
 		font-weight: _font(weight-heading-bold);
 		letter-spacing: _font(kerning-heading);
 		line-height: 1.65;
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
 		text-transform: uppercase;
 
 		a {
@@ -123,7 +122,7 @@
 		border-left: solid 4px _palette(border);
 		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
-		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
+		padding: calc(_size(element-margin) / 4) 0 calc(_size(element-margin) / 4) _size(element-margin);
 	}
 
 	code {
