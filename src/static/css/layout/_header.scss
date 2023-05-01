@@ -182,6 +182,9 @@
 	}
 
 	/* General sidebar styles */
+	.bm-menu-wrap {
+		top: 0;
+	}
 	.bm-menu {
 	  background: _palette(bg);
 	  padding: 2.5em 1.5em 0;
@@ -216,6 +219,7 @@
 	position: fixed;
 	right: 0;
 	border: none;
+	top: 0;
 }
 
 .close-menu{
@@ -223,6 +227,7 @@
 	right: 0;
 	z-index: 3;
 	border-left: 0;
+	top: 0;
 }
 
 .header-icons{
