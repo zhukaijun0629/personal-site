@@ -31,7 +31,7 @@ const Resume = () => {
   return (
     <Main
       title="Resume"
-      description="Kaijun Zhu's Resume. UIUC, Walter P Moore, Saiful Bouquet."
+      description="Kaijun Zhu's Resume."
     >
       <div style={{ margin: 'auto', display: 'flex', justifyContent: 'center' }}>
         <PDFViewer url={pdfUrl} />
