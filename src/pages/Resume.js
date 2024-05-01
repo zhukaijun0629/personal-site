@@ -2,6 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
+import PDFViewer from './utils/PDFViewer';
 
 // import Education from '../components/Resume/Education';
 // import Experience from '../components/Resume/Experience';
@@ -24,17 +25,19 @@ import Main from '../layouts/Main';
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
-const Resume = () => (
-  <Main
-    title="Resume"
-    description="Kaijun Zhu's Resume. UIUC, Walter P Moore, Saiful Bouquet."
-  >
-    <div style={{ margin: 'auto', display: 'flex', justifyContent: 'center' }}>
-      <object className="resumePDF" width="100%" style={{ maxWidth: '850px' }} type="application/pdf" data={`${PUBLIC_URL}/pdfs/resume/Kaijun Zhu-Resume.pdf?#zoom=fit&scrollbar=0&toolbar=0&navpanes=0`}>
-        <p>Something went wrong, the resume cannot be loaded. Please come back later.</p>
-      </object>
-    </div>
-  </Main>
-);
+const Resume = () => {
+  const pdfUrl = `${PUBLIC_URL}/pdfs/resume/Kaijun Zhu-Resume.pdf`;
+
+  return (
+    <Main
+      title="Resume"
+      description="Kaijun Zhu's Resume. UIUC, Walter P Moore, Saiful Bouquet."
+    >
+      <div style={{ margin: 'auto', display: 'flex', justifyContent: 'center' }}>
+        <PDFViewer url={pdfUrl} />
+      </div>
+    </Main>
+  );
+};
 
 export default Resume;
