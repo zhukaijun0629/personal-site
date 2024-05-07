@@ -11,7 +11,7 @@ const PDFViewer = ({ url }) => {
   useEffect(() => {
     const fetchPdf = async () => {
       try {
-        const loadingTask = getDocument(url);
+        const loadingTask = getDocument({ url, isEvalSupported: false });
         const pdf = await loadingTask.promise;
         const page = await pdf.getPage(1);
         const viewport = page.getViewport({ scale: 1.5 });
